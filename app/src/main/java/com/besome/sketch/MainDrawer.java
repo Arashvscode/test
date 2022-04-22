@@ -132,7 +132,7 @@ public class MainDrawer extends LinearLayout implements View.OnClickListener {
     private void initializeDrawerItems() {
         DrawerItem menuAboutModders = DrawerItem.MENU_ABOUT_MODDERS;
         menuAboutModders.icon = Resources.drawable.side_menu_info_icon_over_white;
-        menuAboutModders.title = "About Modders";
+        menuAboutModders.title = "About";
 
         DrawerItem menuChangelog = DrawerItem.MENU_CHANGELOG;
         menuChangelog.icon = Resources.drawable.icon_file_white_96;
