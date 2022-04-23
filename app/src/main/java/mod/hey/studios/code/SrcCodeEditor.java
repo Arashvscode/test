@@ -353,6 +353,8 @@ public class SrcCodeEditor extends AppCompatActivity {
         setTitle(getIntent().getStringExtra("title"));
 
         editor.setTypefaceText(Typeface.MONOSPACE);
+       
+     editor.setNonPrintablePaintingFlags(CodeEditor.FLAG_DRAW_WHITESPACE_LEADING | CodeEditor.FLAG_DRAW_LINE_SEPARATOR);
 
         beforeContent = FileUtil.readFile(getIntent().getStringExtra("content"));
 
